@@ -33,3 +33,10 @@ def find_a(array)
     fruit[0] == "a"
   end
 end
+
+def sum_array(array)
+  total = 0
+  array.each do |i| 
+    total + i 
+  end
+end
