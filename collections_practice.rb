@@ -15,4 +15,5 @@ end
 
 def swap_elements(array)
   array.insert(0, array.delete_at(2))
+  array.insert(0, array.delete_at(1))
 end
