@@ -30,6 +30,6 @@ end
 
 def find_a(array)
   array.find_all do |fruit|
-    fruit[0] = "a"
+    fruit[0] == "a"
   end
 end
