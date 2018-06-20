@@ -27,3 +27,9 @@ def kesha_maker(array)
     name[2] = "$"
   end
 end
+
+def find_a(array)
+  array.each do |fruit|
+    fruit[0].find("a")
+  end
+end
