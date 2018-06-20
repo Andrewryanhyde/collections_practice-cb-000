@@ -29,8 +29,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  i = 0 
-  while i < array.length 
+  i = 0
+  while i < array.length
     array.find do |fruit|
       fruit[0] = "a"
       i += 1
